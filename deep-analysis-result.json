@@ -1,0 +1,961 @@
+{
+  "timestamp": "2026-04-19T00:34:23.437Z",
+  "stats": {
+    "totalFetched": 487,
+    "afterDedup": 418,
+    "afterFilter": 24,
+    "analyzed": 24
+  },
+  "papers": [
+    {
+      "arxivId": "2604.15278v1",
+      "title": "A Manual Bar-by-Bar Tempo Measurement Protocol for Polyphonic Chamber Music Recordings: Design, Validation, and Application to Beethoven's Piano and Cello Sonatas",
+      "abstract": "Empirical performance analysis depends on the accurate extraction of tempo data from recordings, yet standard computational tools, designed for monophonic audio or modern studio conditions, fail systematically when applied to historical polyphonic chamber music. This paper documents the failure of automated beat-detection software on duo recordings of Beethoven's five piano and cello sonatas (Op.~5 Nos.~1 and~2; Op.~69; Op.~102 Nos.~1 and~2), and presents a formalised manual alternative: a cumulative lap-timer protocol that yields bar-level beats-per-minute data with millisecond resolution. The protocol, developed in cross-disciplinary collaboration with an engineer specialising in VLSI design, rests on a cumulative timestamp architecture that prevents error accumulation, permits internal self-validation, and captures expressive timing phenomena (rubato, fermatas, accelerandi, ritardandi) that automated tools systematically suppress or misread. The mathematical derivation of the BPM formula, the spreadsheet data structure, and the error characterisation are presented in full. Applied to over one hundred movement-level recordings spanning 1930--2012, the protocol generated a dataset subsequently visualised through tempographs, histograms with spline-smoothed probability density functions, ridgeline plots, and combination charts. The paper argues that manual annotation is not a methodological retreat but a principled response to the intrinsic limitations of computational tools when faced with the specific challenges of polyphonic historical recordings. The complete dataset and analysis code are publicly available.",
+      "authors": [
+        "Ignasi Sole"
+      ],
+      "published": "2026-04-16T17:49:03Z",
+      "categories": [
+        "cs.SD",
+        "eess.AS"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.710Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.15278v1/Figures/Tempograph_of_mm._350_to_400_of_op._5_no._1.png",
+        "https://arxiv.org/html/2604.15278v1/Figures/Histogram_Sonata_1.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.15278v1/Figures/Tempograph_of_mm._350_to_400_of_op._5_no._1.png",
+        "https://arxiv.org/html/2604.15278v1/Figures/Histogram_Sonata_1.png",
+        "https://arxiv.org/html/2604.15278v1/Figures/Sonata_1_Ridge.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.15086v1",
+      "title": "ControlFoley: Unified and Controllable Video-to-Audio Generation with Cross-Modal Conflict Handling",
+      "abstract": "Recent advances in video-to-audio (V2A) generation enable high-quality audio synthesis from visual content, yet achieving robust and fine-grained controllability remains challenging. Existing methods suffer from weak textual controllability under visual-text conflict and imprecise stylistic control due to entangled temporal and timbre information in reference audio. Moreover, the lack of standardized benchmarks limits systematic evaluation.   We propose ControlFoley, a unified multimodal V2A framework that enables precise control over video, text, and reference audio. We introduce a joint visual encoding paradigm that integrates CLIP with a spatio-temporal audio-visual encoder to improve alignment and textual controllability. We further propose temporal-timbre decoupling to suppress redundant temporal cues while preserving discriminative timbre features. In addition, we design a modality-robust training scheme with unified multimodal representation alignment (REPA) and random modality dropout. We also present VGGSound-TVC, a benchmark for evaluating textual controllability under varying degrees of visual-text conflict.   Extensive experiments demonstrate state-of-the-art performance across multiple V2A tasks, including text-guided, text-controlled, and audio-controlled generation. ControlFoley achieves superior controllability under cross-modal conflict while maintaining strong synchronization and audio quality, and shows competitive or better performance compared to an industrial V2A system.   Code, models, datasets, and demos are available at: https://yjx-research.github.io/ControlFoley/.",
+      "authors": [
+        "Jianxuan Yang",
+        "Xinyue Guo",
+        "Zhi Cheng",
+        "Kai Wang",
+        "Lipan Zhang",
+        "Jinjie Hu",
+        "Qiang Ji",
+        "Yihua Cao",
+        "Yihao Meng",
+        "Zhaoyue Cui",
+        "Mengmei Liu",
+        "Meng Meng",
+        "Jian Luan"
+      ],
+      "published": "2026-04-16T14:47:24Z",
+      "categories": [
+        "cs.MM",
+        "cs.CV",
+        "cs.SD"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.15086v1/x1.png",
+        "https://arxiv.org/html/2604.15086v1/x2.png",
+        "https://arxiv.org/html/2604.15086v1/x3.png",
+        "https://arxiv.org/html/2604.15086v1/x4.png",
+        "https://arxiv.org/html/2604.15086v1/x5.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.15086v1/x1.png",
+        "https://arxiv.org/html/2604.15086v1/x2.png",
+        "https://arxiv.org/html/2604.15086v1/x3.png",
+        "https://arxiv.org/html/2604.15086v1/x4.png",
+        "https://arxiv.org/html/2604.15086v1/x5.png",
+        "https://arxiv.org/html/2604.15086v1/x6.png",
+        "https://arxiv.org/html/2604.15086v1/x7.png",
+        "https://arxiv.org/html/2604.15086v1/x8.png",
+        "https://arxiv.org/html/2604.15086v1/x9.png",
+        "https://arxiv.org/html/2604.15086v1/x10.png",
+        "https://arxiv.org/html/2604.15086v1/x11.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.15055v1",
+      "title": "Enhancing time-frequency resolution with optimal transport and barycentric fusion of multiple spectrogram",
+      "abstract": "Time-frequency representations, such as the short-time Fourier transform (STFT), are fundamental tools for analyzing non-stationary signals. However, their ability to achieve sharp localization in both time and frequency is inherently limited by the Gabor-Heisenberg uncertainty principle. In this paper, we address this limitation by introducing a method to generate super-resolution spectrograms through the fusion of two or more spectrograms with varying resolutions. Specifically, we compute the super-resolution spectrogram as the barycenter of input spectrograms using optimal transport (OT) divergences. Unlike existing fusion approaches, our method does not require the input spectrograms to share the same time-frequency grid. Instead, the input spectrograms can be computed using any STFT parameters, and the resulting super-resolution spectrogram can be defined on an arbitrary user-specified grid. We explore various OT divergences based on different transportation costs. Notably, we introduce a novel transportation cost that preserves time-frequency geometry while significantly reducing computational complexity compared to standard Wasserstein barycenters. We adopt the unbalanced OT framework and derive a new block majorization-minimization algorithm for efficient barycenter computation. We validate the proposed method on controlled synthetic signals and recorded speech using both quantitative and qualitative evaluations. The results show that our approach combines the best localization properties of the input spectrograms and outperforms an unsupervised state-of-the-art fusion method.",
+      "authors": [
+        "David Valdivia",
+        "Elsa Cazelles",
+        "Cédric Févotte"
+      ],
+      "published": "2026-04-16T14:23:59Z",
+      "categories": [
+        "eess.SP",
+        "cs.SD"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.15055v1/x1.png",
+        "https://arxiv.org/html/2604.15055v1/x2.png",
+        "https://arxiv.org/html/2604.15055v1/x3.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.15055v1/x1.png",
+        "https://arxiv.org/html/2604.15055v1/x2.png",
+        "https://arxiv.org/html/2604.15055v1/x3.png",
+        "https://arxiv.org/html/2604.15055v1/x4.png",
+        "https://arxiv.org/html/2604.15055v1/x5.png",
+        "https://arxiv.org/html/2604.15055v1/x6.png",
+        "https://arxiv.org/html/2604.15055v1/x7.png",
+        "https://arxiv.org/html/2604.15055v1/x8.png",
+        "https://arxiv.org/html/2604.15055v1/x9.png",
+        "https://arxiv.org/html/2604.15055v1/x10.png",
+        "https://arxiv.org/html/2604.15055v1/x11.png",
+        "https://arxiv.org/html/2604.15055v1/x12.png",
+        "https://arxiv.org/html/2604.15055v1/x13.png",
+        "https://arxiv.org/html/2604.15055v1/x14.png",
+        "https://arxiv.org/html/2604.15055v1/x15.png",
+        "https://arxiv.org/html/2604.15055v1/x16.png",
+        "https://arxiv.org/html/2604.15055v1/x17.png",
+        "https://arxiv.org/html/2604.15055v1/x18.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.15037v1",
+      "title": "From Reactive to Proactive: Assessing the Proactivity of Voice Agents via ProVoice-Bench",
+      "abstract": "Recent advancements in LLM agents are gradually shifting from reactive, text-based paradigms toward proactive, multimodal interaction. However, existing benchmarks primarily focus on reactive responses, overlooking the complexities of proactive intervention and monitoring. To bridge this gap, we introduce ProVoice-Bench, the first evaluation framework specifically designed for proactive voice agents, featuring four novel tasks. By leveraging a multi-stage data synthesis pipeline, we curate 1,182 high-quality samples for rigorous testing. Our evaluation of state-of-the-art Multimodal LLMs reveals a significant performance gap, particularly regarding over-triggering and reasoning capabilities. These findings highlight the limitations of current models and offer a roadmap for developing more natural, context-aware proactive agents.",
+      "authors": [
+        "Ke Xu",
+        "Yuhao Wang",
+        "Yu Wang"
+      ],
+      "published": "2026-04-16T14:06:30Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SD"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.15037v1/x1.png",
+        "https://arxiv.org/html/2604.15037v1/x2.png",
+        "https://arxiv.org/html/2604.15037v1/x3.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.15037v1/x1.png",
+        "https://arxiv.org/html/2604.15037v1/x2.png",
+        "https://arxiv.org/html/2604.15037v1/x3.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.14806v1",
+      "title": "Listen, Pause, and Reason: Toward Perception-Grounded Hybrid Reasoning for Audio Understanding",
+      "abstract": "Recent Large Audio Language Models have demonstrated impressive capabilities in audio understanding. However, they often suffer from perceptual errors, while reliable audio reasoning is unattainable without first grounding the model's perception in structured auditory scenes. Inspired by Auditory Scene Analysis, we first introduce a Perception-Aware Question Answering (PAQA) dataset. PAQA implements a hierarchical decoupling strategy that separates speech from environmental sound and distinguishes multiple speakers, providing explicit perceptual reasoning for training. Building on this, we propose HyPeR, a two-stage Hybrid Perception-Reasoning framework. In Stage I, we finetune the model on PAQA to perceive acoustic attributes in complex audio. In Stage II, we leverage GRPO to refine the model's internal deliberation. We also introduce PAUSE tokens to facilitate latent computation during acoustically ambiguous phases and design perceptual consistency reward to align reasoning rationales with raw audio. Experiments across benchmarks demonstrate that HyPeR achieves absolute improvements over the base model, with performance comparable to large-scale models, stressing the effectiveness of hybrid perception-grounded reasoning for robust and multi-speaker audio understanding.",
+      "authors": [
+        "Jieyi Wang",
+        "Yazhe Niu",
+        "Dexuan Xu",
+        "Zhongyu Wei"
+      ],
+      "published": "2026-04-16T09:30:13Z",
+      "categories": [
+        "cs.SD",
+        "cs.MM"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.14806v1/x1.png",
+        "https://arxiv.org/html/2604.14806v1/x2.png",
+        "https://arxiv.org/html/2604.14806v1/x3.png",
+        "https://arxiv.org/html/2604.14806v1/x5.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.14806v1/x1.png",
+        "https://arxiv.org/html/2604.14806v1/x2.png",
+        "https://arxiv.org/html/2604.14806v1/x3.png",
+        "https://arxiv.org/html/2604.14806v1/latex/img/pause.png",
+        "https://arxiv.org/html/2604.14806v1/x4.png",
+        "https://arxiv.org/html/2604.14806v1/x5.png",
+        "https://arxiv.org/html/2604.14806v1/x6.png",
+        "https://arxiv.org/html/2604.14806v1/latex/img/overfit.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.14707v1",
+      "title": "Geo2Sound: A Scalable Geo-Aligned Framework for Soundscape Generation from Satellite Imagery",
+      "abstract": "Recent image-to-audio models have shown impressive performance on object-centric visual scenes. However, their application to satellite imagery remains limited by the complex, wide-area semantic ambiguity of top-down views. While satellite imagery provides a uniquely scalable source for global soundscape generation, matching these views to real acoustic environments with unique spatial structures is inherently difficult. To address this challenge, we introduce Geo2Sound, a novel task and framework for generating geographically realistic soundscapes from satellite imagery. Specifically, Geo2Sound combines structural geospatial attributes modeling, semantic hypothesis expansion, and geo-acoustic alignment in a unified framework. A lightweight classifier summarizes overhead scenes into compact geographic attributes, multiple sound-oriented semantic hypotheses are used to generate diverse acoustically plausible candidates, and a geo-acoustic alignment module projects geographic attributes into the acoustic embedding space and identifies the candidate most consistent with the candidate sets. Moreover, we establish SatSound-Bench, the first benchmark comprising over 20k high-quality paired satellite images, text descriptions, and real-world audio recordings, collected from the field across more than 10 countries and complemented by three public datasets. Experiments show that Geo2Sound achieves a SOTA FAD of 1.765, outperforming the strongest baseline by 50.0%. Human evaluations further confirm substantial gains in both realism (26.5%) and semantic alignment, validating our high-fidelity synthesis on scale. Project page and source code: https://github.com/Blanketzzz/Geo2Sound",
+      "authors": [
+        "Kunlin Wu",
+        "Yanning Wang",
+        "Haofeng Tan",
+        "Boyi Chen",
+        "Teng Fei",
+        "Xianping Ma",
+        "Yang Yue",
+        "Zan Zhou",
+        "Xiaofeng Liu"
+      ],
+      "published": "2026-04-16T07:15:37Z",
+      "categories": [
+        "cs.MM",
+        "cs.SD"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.14707v1/x1.png",
+        "https://arxiv.org/html/2604.14707v1/x2.png",
+        "https://arxiv.org/html/2604.14707v1/x3.png",
+        "https://arxiv.org/html/2604.14707v1/x4.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.14707v1/x1.png",
+        "https://arxiv.org/html/2604.14707v1/x2.png",
+        "https://arxiv.org/html/2604.14707v1/x3.png",
+        "https://arxiv.org/html/2604.14707v1/x4.png",
+        "https://arxiv.org/html/2604.14707v1/x5.png",
+        "https://arxiv.org/html/2604.14707v1/x6.png",
+        "https://arxiv.org/html/2604.14707v1/x7.png",
+        "https://arxiv.org/html/2604.14707v1/x8.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.14654v1",
+      "title": "ClariCodec: Optimising Neural Speech Codes for 200bps Communication using Reinforcement Learning",
+      "abstract": "In bandwidth-constrained communication such as satellite and underwater channels, speech must often be transmitted at ultra-low bitrates where intelligibility is the primary objective. At such extreme compression levels, codecs trained with acoustic reconstruction losses tend to allocate bits to perceptual detail, leading to substantial degradation in word error rate (WER). This paper proposes ClariCodec, a neural speech codec operating at 200 bit per second (bps) that reformulates quantisation as a stochastic policy, enabling reinforcement learning (RL)-based optimisation of intelligibility. Specifically, the encoder is fine-tuned using WER-driven rewards while the acoustic reconstruction pipeline remains frozen. Even without RL, ClariCodec achieves 3.68% WER on the LibriSpeech test-clean set at 200 bps, already competitive with codecs operating at higher bitrates. Further RL fine-tuning reduces WER to 3.20% on test-clean and 8.93% on test-other, corresponding to a 13% relative reduction while preserving perceptual quality.",
+      "authors": [
+        "Junyi Wang",
+        "Chi Zhang",
+        "Jing Qian",
+        "Haifeng Luo",
+        "Hao Wang",
+        "Zengrui Jin",
+        "Chao Zhang"
+      ],
+      "published": "2026-04-16T06:01:46Z",
+      "categories": [
+        "cs.SD",
+        "eess.AS"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.14654v1/x1.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.14654v1/x1.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.14604v1",
+      "title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
+      "abstract": "Modern Large audio-language models (LALMs) power intelligent voice interactions by tightly integrating audio and text. This integration, however, expands the attack surface beyond text and introduces vulnerabilities in the continuous, high-dimensional audio channel. While prior work studied audio jailbreaks, the security risks of malicious audio injection and downstream behavior manipulation remain underexamined. In this work, we reveal a previously overlooked threat, auditory prompt injection, under realistic constraints of audio data-only access and strong perceptual stealth. To systematically analyze this threat, we propose \\textit{AudioHijack}, a general framework that generates context-agnostic and imperceptible adversarial audio to hijack LALMs. \\textit{AudioHijack} employs sampling-based gradient estimation for end-to-end optimization across diverse models, bypassing non-differentiable audio tokenization. Through attention supervision and multi-context training, it steers model attention toward adversarial audio and generalizes to unseen user contexts. We also design a convolutional blending method that modulates perturbations into natural reverberation, making them highly imperceptible to users. Extensive experiments on 13 state-of-the-art LALMs show consistent hijacking across 6 misbehavior categories, achieving average success rates of 79\\%-96\\% on unseen user contexts with high acoustic fidelity. Real-world studies demonstrate that commercial voice agents from Mistral AI and Microsoft Azure can be induced to execute unauthorized actions on behalf of users. These findings expose critical vulnerabilities in LALMs and highlight the urgent need for dedicated defense.",
+      "authors": [
+        "Meng Chen",
+        "Kun Wang",
+        "Li Lu",
+        "Jiaheng Zhang",
+        "Tianwei Zhang"
+      ],
+      "published": "2026-04-16T04:22:11Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.SD"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.14604v1/figure/lalm-scheme.png",
+        "https://arxiv.org/html/2604.14604v1/figure/threat-model.png",
+        "https://arxiv.org/html/2604.14604v1/figure/attack_framework.png",
+        "https://arxiv.org/html/2604.14604v1/figure/0.success_case_attention.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/0.failure_case_attention.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/5.impact_factor_context_pisr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/5.impact_factor_context_bmsr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/9.baseline-csa-bmsr.jpg"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.14604v1/figure/lalm-scheme.png",
+        "https://arxiv.org/html/2604.14604v1/figure/threat-model.png",
+        "https://arxiv.org/html/2604.14604v1/figure/attack_framework.png",
+        "https://arxiv.org/html/2604.14604v1/figure/0.success_case_attention.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/0.failure_case_attention.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/1.effectiveness.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/5.impact_factor_context_pisr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/5.impact_factor_context_bmsr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/9.baseline-csa-bmsr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/9.baseline-caa-bmsr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/6.baseline_attention_weight.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/6.baseline_cross_entropy.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.benign_spectrum.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.additive_adv_audio_linf.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.additive_adv_audio_l2.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.ota_spectrum.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.convolutioinal_adv_audio.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/7.impact_factor_data_size_pisr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/7.impact_factor_data_size_bmsr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/8.impact_factor_carrier_length_pisr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/8.impact_factor_carrier_length_bmsr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/4.impact_factor_temperature_pisr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/4.impact_factor_temperature_bmsr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/10.defense_ic.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/10.defense_sr.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/11.defense_ug_roc.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/11.defense_wg_roc.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/12.defense_as_pca.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/12.defense_as_pca_adaptive.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/test_speech_prompt_0000_att_audio.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/test_speech_prompt_0000_att_user.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/csa_base_test_speech_prompt_1000_att_audio.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/csa_base_test_speech_prompt_1000_att_user.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/csa_test_speech_prompt_1000_att_audio.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/csa_test_speech_prompt_1000_att_user.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/caa_base_test_speech_prompt_1500_att_audio.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/caa_base_test_speech_prompt_1500_att_user.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/caa_test_speech_prompt_1500_att_audio.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/caa_test_speech_prompt_1500_att_user.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.benign_spectrum_sound.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.additive_adv_spectrum_sound_linf.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.additive_adv_spectrum_sound_l2.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.ota_spectrum_sound.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.convolutioinal_adv_spectrum_sound.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.benign_spectrum_music.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.additive_adv_spectrum_music_linf.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.additive_adv_spectrum_music_l2.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.ota_spectrum_music.jpg",
+        "https://arxiv.org/html/2604.14604v1/figure/2.convolutioinal_adv_spectrum_music.jpg"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.14548v1",
+      "title": "VoxSafeBench: Not Just What Is Said, but Who, How, and Where",
+      "abstract": "As speech language models (SLMs) transition from personal devices into shared, multi-user environments, their responses must account for far more than the words alone. Who is speaking, how they sound, and where the conversation takes place can each turn an otherwise benign request into one that is unsafe, unfair, or privacy-violating. Existing benchmarks, however, largely focus on basic audio comprehension, study individual risks in isolation, or conflate content that is inherently harmful with content that only becomes problematic due to its acoustic context. We introduce VoxSafeBench, among the first benchmarks to jointly evaluate social alignment in SLMs across three dimensions: safety, fairness, and privacy. VoxSafeBench adopts a Two-Tier design: Tier1 evaluates content-centric risks using matched text and audio inputs, while Tier2 targets audio-conditioned risks in which the transcript is benign but the appropriate response hinges on the speaker, paralinguistic cues, or the surrounding environment. To validate Tier2, we include intermediate perception probes and confirm that frontier SLMs can successfully detect these acoustic cues yet still fail to act on them appropriately. Across 22 tasks with bilingual coverage, we find that safeguards appearing robust on text often degrade in speech: safety awareness drops for speaker- and scene-conditioned risks, fairness erodes when demographic differences are conveyed vocally, and privacy protections falter when contextual cues arrive acoustically. Together, these results expose a pervasive speech grounding gap: current SLMs frequently recognize the relevant social norm in text but fail to apply it when the decisive cue must be grounded in speech. Code and data are publicly available at: https://amphionteam.github.io/VoxSafeBench_demopage/",
+      "authors": [
+        "Yuxiang Wang",
+        "Hongyu Liu",
+        "Yijiang Xu",
+        "Qinke Ni",
+        "Li Wang",
+        "Wan Lin",
+        "Kunyu Feng",
+        "Dekun Chen",
+        "Xu Tan",
+        "Lei Wang",
+        "Jie Shi",
+        "Zhizheng Wu"
+      ],
+      "published": "2026-04-16T02:24:59Z",
+      "categories": [
+        "cs.SD",
+        "cs.LG",
+        "eess.AS"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.14548v1/x1.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/text.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/text.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.14548v1/x1.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/text.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/text.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/text.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/text.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/text.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/text.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/text.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/graphs/audio.png",
+        "https://arxiv.org/html/2604.14548v1/x2.png",
+        "https://arxiv.org/html/2604.14548v1/x3.png",
+        "https://arxiv.org/html/2604.14548v1/x4.png",
+        "https://arxiv.org/html/2604.14548v1/x5.png",
+        "https://arxiv.org/html/2604.14548v1/x6.png",
+        "https://arxiv.org/html/2604.14548v1/x7.png",
+        "https://arxiv.org/html/2604.14548v1/x8.png",
+        "https://arxiv.org/html/2604.14548v1/x9.png",
+        "https://arxiv.org/html/2604.14548v1/x10.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.13715v1",
+      "title": "Towards Fine-grained Temporal Perception: Post-Training Large Audio-Language Models with Audio-Side Time Prompt",
+      "abstract": "Large Audio-Language Models (LALMs) enable general audio understanding and demonstrate remarkable performance across various audio tasks. However, these models still face challenges in temporal perception (e.g., inferring event onset and offset), leading to limited utility in fine-grained scenarios. To address this issue, we propose Audio-Side Time Prompt and leverage Reinforcement Learning (RL) to develop the TimePro-RL framework for fine-grained temporal perception. Specifically, we encode timestamps as embeddings and interleave them within the audio feature sequence as temporal coordinates to prompt the model. Furthermore, we introduce RL following Supervised Fine-Tuning (SFT) to directly optimize temporal alignment performance. Experiments demonstrate that TimePro-RL achieves significant performance gains across a range of audio temporal tasks, such as audio grounding, sound event detection, and dense audio captioning, validating its robust effectiveness.",
+      "authors": [
+        "Yanfeng Shi",
+        "Pengfei Cai",
+        "Jun Liu",
+        "Qing Gu",
+        "Nan Jiang",
+        "Lirong Dai",
+        "Ian McLoughlin",
+        "Yan Song"
+      ],
+      "published": "2026-04-15T10:50:29Z",
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.13715v1/x1.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.13715v1/x1.png",
+        "https://arxiv.org/html/2604.13715v1/x2.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.13528v1",
+      "title": "Few-Shot and Pseudo-Label Guided Speech Quality Evaluation with Large Language Models",
+      "abstract": "In this paper, we introduce GatherMOS, a novel framework that leverages large language models (LLM) as meta-evaluators to aggregate diverse signals into quality predictions. GatherMOS integrates lightweight acoustic descriptors with pseudo-labels from DNSMOS and VQScore, enabling the LLM to reason over heterogeneous inputs and infer perceptual mean opinion scores (MOS). We further explore both zero-shot and few-shot in-context learning setups, showing that zero-shot GatherMOS maintains stable performance across diverse conditions, while few-shot guidance yields large gains when support samples match the test conditions. Experiments on the VoiceBank-DEMAND dataset demonstrate that GatherMOS consistently outperforms DNSMOS, VQScore, naive score averaging, and even learning-based models such as CNN-BLSTM and MOS-SSL when trained under limited labeled-data conditions. These results highlight the potential of LLM-based aggregation as a practical strategy for non-intrusive speech quality evaluation.",
+      "authors": [
+        "Ryandhimas E. Zezario",
+        "Dyah A. M. G. Wisnu",
+        "Szu-Wei Fu",
+        "Sabato Marco Siniscalchi",
+        "Hsin-Min Wang",
+        "Yu Tsao"
+      ],
+      "published": "2026-04-15T06:23:20Z",
+      "categories": [
+        "eess.AS",
+        "cs.SD"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.13528v1/x1.png",
+        "https://arxiv.org/html/2604.13528v1/x2.png",
+        "https://arxiv.org/html/2604.13528v1/x3.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.13528v1/x1.png",
+        "https://arxiv.org/html/2604.13528v1/x2.png",
+        "https://arxiv.org/html/2604.13528v1/x3.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.13023v1",
+      "title": "SpotSound: Enhancing Large Audio-Language Models with Fine-Grained Temporal Grounding",
+      "abstract": "Large Audio-Language Models (ALMs) have recently demonstrated remarkable capabilities in holistic audio understanding, yet they remain unreliable for temporal grounding, i.e., the task of pinpointing exactly when an event occurs within long-form audio. This limitation stems from two factors: training data dominated by clip-level supervision lacking precise timestamps, and benchmarks that fail to simulate real-world scenarios where short events are obscured by dense background sounds. In this paper, we introduce SpotSound, an audio language model designed for grounding audio events. SpotSound incorporates a novel training objective, specifically designed to suppress hallucinated timestamps for events absent from the input. Additionally, we present SpotSound-Bench, a challenging temporal grounding benchmark where target events occupy less than ~10\\% of each clip, creating a rigorous `needle-in-a-haystack' evaluation. Experiments demonstrate that SpotSound achieves state-of-the-art results on temporal grounding benchmarks while maintaining robust performance across general downstream audio-language tasks. Code, models and benchmark are released on https://loiesun.github.io/spotsound/",
+      "authors": [
+        "Luoyi Sun",
+        "Xiao Zhou",
+        "Zeqian Li",
+        "Ya Zhang",
+        "Yanfeng Wang",
+        "Weidi Xie"
+      ],
+      "published": "2026-04-14T17:57:01Z",
+      "categories": [
+        "cs.SD",
+        "cs.MM"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.13023v1/x1.png",
+        "https://arxiv.org/html/2604.13023v1/x2.png",
+        "https://arxiv.org/html/2604.13023v1/x3.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.13023v1/x1.png",
+        "https://arxiv.org/html/2604.13023v1/x2.png",
+        "https://arxiv.org/html/2604.13023v1/x3.png",
+        "https://arxiv.org/html/2604.13023v1/x4.png",
+        "https://arxiv.org/html/2604.13023v1/x5.png",
+        "https://arxiv.org/html/2604.13023v1/x6.png",
+        "https://arxiv.org/html/2604.13023v1/x7.png",
+        "https://arxiv.org/html/2604.13023v1/x8.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.12733v1",
+      "title": "Transformer Based Machine Fault Detection From Audio Input",
+      "abstract": "In recent years, Sound AI is being increasingly used to predict machine failures. By attaching a microphone to the machine of interest, one can get real time data on machine behavior from the field. Traditionally, Convolutional Neural Net (CNN) architectures have been used to analyze spectrogram images generated from the sounds captured and predict if the machine is functioning as expected. CNN architectures seem to work well empirically even though they have biases like locality and parameter-sharing which may not be completely relevant for spectrogram analysis. With the successful application of transformer-based models in the field of image processing starting with Vision Transformer (ViT) in 2020, there has been significant interest in leveraging these in the field of Sound AI. Since transformer-based architectures have significantly lower inductive biases, they are expected to perform better than CNNs at spectrogram analysis given enough data. This paper demonstrates the effectiveness of transformer-driven architectures in analyzing Sound data and compares the embeddings they generate with CNNs on the specific task of machine fault detection.",
+      "authors": [
+        "Kiran Voderhobli Holla"
+      ],
+      "published": "2026-04-14T13:47:41Z",
+      "categories": [
+        "cs.SD",
+        "cs.LG"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [],
+      "allImageUrls": [],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.12647v1",
+      "title": "Adaptive Test-Time Scaling for Zero-Shot Respiratory Audio Classification",
+      "abstract": "Automated respiratory audio analysis promises scalable, non-invasive disease screening, yet progress is limited by scarce labeled data and costly expert annotation. Zero-shot inference eliminates task-specific supervision, but existing methods apply uniform computation to every input regardless of difficulty. We introduce TRIAGE, a tiered zero-shot framework that adaptively scales test-time compute by routing each audio sample through progressively richer reasoning stages: fast label-cosine scoring in a joint audio-text embedding space (Tier-L), structured matching with clinician-style descriptors (Tier-M), and retrieval-augmented large language model reasoning (Tier-H). A confidence-based router finalizes easy predictions early while allocating additional computation to ambiguous inputs, enabling nearly half of all samples to exit at the cheapest tier. Across nine respiratory classification tasks without task-specific training, TRIAGE achieves a mean AUROC of 0.744, outperforming prior zero-shot methods and matching or exceeding supervised baselines on multiple tasks. Our analysis show that test-time scaling concentrates gains where they matter: uncertain cases see up to 19% relative improvement while confident predictions remain unchanged at minimal cost.",
+      "authors": [
+        "Tsai-Ning Wang",
+        "Herman Teun den Dekker",
+        "Lin-Lin Chen",
+        "Neil Zeghidour",
+        "Aaqib Saeed"
+      ],
+      "published": "2026-04-14T12:17:50Z",
+      "categories": [
+        "cs.SD",
+        "cs.CL"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.12647v1/img/teaserfig.png",
+        "https://arxiv.org/html/2604.12647v1/x1.png",
+        "https://arxiv.org/html/2604.12647v1/img/closest.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.12647v1/img/teaserfig.png",
+        "https://arxiv.org/html/2604.12647v1/x1.png",
+        "https://arxiv.org/html/2604.12647v1/img/closest.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.12506v1",
+      "title": "Beyond Transcription: Unified Audio Schema for Perception-Aware AudioLLMs",
+      "abstract": "Recent Audio Large Language Models (AudioLLMs) exhibit a striking performance inversion: while excelling at complex reasoning tasks, they consistently underperform on fine-grained acoustic perception. We attribute this gap to a fundamental limitation of ASR-centric training, which provides precise linguistic targets but implicitly teaches models to suppress paralinguistic cues and acoustic events as noise. To address this, we propose Unified Audio Schema (UAS), a holistic and structured supervision framework that organizes audio information into three explicit components -- Transcription, Paralinguistics, and Non-linguistic Events -- within a unified JSON format. This design achieves comprehensive acoustic coverage without sacrificing the tight audio-text alignment that enables reasoning. We validate the effectiveness of this supervision strategy by applying it to both discrete and continuous AudioLLM architectures. Extensive experiments on MMSU, MMAR, and MMAU demonstrate that UAS-Audio yields consistent improvements, boosting fine-grained perception by 10.9% on MMSU over the same-size state-of-the-art models while preserving robust reasoning capabilities. Our code and model are publicly available at https://github.com/Tencent/Unified_Audio_Schema.",
+      "authors": [
+        "Linhao Zhang",
+        "Yuhan Song",
+        "Aiwei Liu",
+        "Chuhan Wu",
+        "Sijun Zhang",
+        "Wei Jia",
+        "Yuan Liu",
+        "Houfeng Wang",
+        "Xiao Zhou"
+      ],
+      "published": "2026-04-14T09:30:12Z",
+      "categories": [
+        "cs.CL",
+        "cs.SD"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.12506v1/x1.png",
+        "https://arxiv.org/html/2604.12506v1/x2.png",
+        "https://arxiv.org/html/2604.12506v1/x3.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.12506v1/x1.png",
+        "https://arxiv.org/html/2604.12506v1/x2.png",
+        "https://arxiv.org/html/2604.12506v1/x3.png",
+        "https://arxiv.org/html/2604.12506v1/x4.png",
+        "https://arxiv.org/html/2604.12506v1/x5.png",
+        "https://arxiv.org/html/2604.12506v1/pics/uas_evaluation_screenshot.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.12483v1",
+      "title": "Elastic Net Regularization and Gabor Dictionary for Classification of Heart Sound Signals using Deep Learning",
+      "abstract": "In this article, we propose the optimization of the resolution of time-frequency atoms and the regularization of fitting models to obtain better representations of heart sound signals. This is done by evaluating the classification performance of deep learning (DL) networks in discriminating five heart valvular conditions based on a new class of time-frequency feature matrices derived from the fitting models. We inspect several combinations of resolution and regularization, and the optimal one is that provides the highest performance. To this end, a fitting model is obtained based on a heart sound signal and an overcomplete dictionary of Gabor atoms using elastic net regularization of linear models. We consider two different DL architectures, the first mainly consisting of a 1D convolutional neural network (CNN) layer and a long short-term memory (LSTM) layer, while the second is composed of 1D and 2D CNN layers followed by an LSTM layer. The networks are trained with two algorithms, namely stochastic gradient descent with momentum (SGDM) and adaptive moment (ADAM). Extensive experimentation has been conducted using a database containing heart sound signals of five heart valvular conditions. The best classification accuracy of $98.95\\%$ is achieved with the second architecture when trained with ADAM and feature matrices derived from optimal models obtained with a Gabor dictionary consisting of atoms with high-time low-frequency resolution and imposing sparsity on the models.",
+      "authors": [
+        "Mahmoud Fakhry",
+        "Ascensión Gallardo-Antolín"
+      ],
+      "published": "2026-04-14T09:09:30Z",
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.12483v1/x2.jpg",
+        "https://arxiv.org/html/2604.12483v1/x3.png",
+        "https://arxiv.org/html/2604.12483v1/x7.png",
+        "https://arxiv.org/html/2604.12483v1/x8.png",
+        "https://arxiv.org/html/2604.12483v1/x9.jpg",
+        "https://arxiv.org/html/2604.12483v1/x10.png",
+        "https://arxiv.org/html/2604.12483v1/x11.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.12483v1/x1.png",
+        "https://arxiv.org/html/2604.12483v1/x2.jpg",
+        "https://arxiv.org/html/2604.12483v1/x3.png",
+        "https://arxiv.org/html/2604.12483v1/x4.png",
+        "https://arxiv.org/html/2604.12483v1/x5.png",
+        "https://arxiv.org/html/2604.12483v1/x6.png",
+        "https://arxiv.org/html/2604.12483v1/x7.png",
+        "https://arxiv.org/html/2604.12483v1/x8.png",
+        "https://arxiv.org/html/2604.12483v1/x9.jpg",
+        "https://arxiv.org/html/2604.12483v1/x10.png",
+        "https://arxiv.org/html/2604.12483v1/x11.png",
+        "https://arxiv.org/html/2604.12483v1/x12.png",
+        "https://arxiv.org/html/2604.12483v1/x13.png",
+        "https://arxiv.org/html/2604.12483v1/x14.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.12480v1",
+      "title": "Audio Source Separation in Reverberant Environments using $β$-divergence based Nonnegative Factorization",
+      "abstract": "In Gaussian model-based multichannel audio source separation, the likelihood of observed mixtures of source signals is parametrized by source spectral variances and by associated spatial covariance matrices. These parameters are estimated by maximizing the likelihood through an Expectation-Maximization algorithm and used to separate the signals by means of multichannel Wiener filtering.   We propose to estimate these parameters by applying nonnegative factorization based on prior information on source variances. In the nonnegative factorization, spectral basis matrices can be defined as the prior information. The matrices can be either extracted or indirectly made available through a redundant library that is trained in advance. In a separate step, applying nonnegative tensor factorization, two algorithms are proposed in order to either extract or detect the basis matrices that best represent the power spectra of the source signals in the observed mixtures. The factorization is achieved by minimizing the $β$-divergence through multiplicative update rules. The sparsity of factorization can be controlled by tuning the value of $β$.   Experiments show that sparsity, rather than the value assigned to $β$ in the training, is crucial in order to increase the separation performance. The proposed method was evaluated in several mixing conditions. It provides better separation quality with respect to other comparable algorithms.",
+      "authors": [
+        "Mahmoud Fakhry",
+        "Piergiorgio Svaizer",
+        "Maurizio Omologo"
+      ],
+      "published": "2026-04-14T09:03:17Z",
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.12480v1/x1.png",
+        "https://arxiv.org/html/2604.12480v1/myfigure6.jpg",
+        "https://arxiv.org/html/2604.12480v1/myfigure5.jpg",
+        "https://arxiv.org/html/2604.12480v1/x2.png",
+        "https://arxiv.org/html/2604.12480v1/myfigure.jpg",
+        "https://arxiv.org/html/2604.12480v1/myfigure2.jpg",
+        "https://arxiv.org/html/2604.12480v1/x3.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.12480v1/x1.png",
+        "https://arxiv.org/html/2604.12480v1/myfigure6.jpg",
+        "https://arxiv.org/html/2604.12480v1/myfigure5.jpg",
+        "https://arxiv.org/html/2604.12480v1/x2.png",
+        "https://arxiv.org/html/2604.12480v1/myfigure.jpg",
+        "https://arxiv.org/html/2604.12480v1/myfigure2.jpg",
+        "https://arxiv.org/html/2604.12480v1/x3.png",
+        "https://arxiv.org/html/2604.12480v1/x4.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.12383v1",
+      "title": "On the Distillation Loss Functions of Speech VAE for Unified Reconstruction, Understanding, and Generation",
+      "abstract": "Continuous speech representations based on Variational Autoencoders (VAEs) have emerged as a promising alternative to traditional spectrogram or discrete token based features for speech generation and reconstruction. Recent research has tried to enrich the structural information in VAE latent representations by aligning with self-supervised learning (SSL) features, aiming for better generation performance. However, it remains unclear whether the widely-used alignment approach based on time-axis distillation is optimal when considering more tasks. To address this problem, this paper systematically explores different alignment approaches and analyzes their impact on the performances over three axes: reconstruction, understanding, and generation. We investigate various design choices in the distillation loss. Extensive experiments show that the joint-marginal alignment approach with adaptive weighting can achieve the best overall performance while allowing for a controllable balance.",
+      "authors": [
+        "Changhao Cheng",
+        "Wei Wang",
+        "Wangyou Zhang",
+        "Dongya Jia",
+        "Jian Wu",
+        "Zhuo Chen",
+        "Yanmin Qian"
+      ],
+      "published": "2026-04-14T07:17:55Z",
+      "categories": [
+        "cs.SD"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.12383v1/x1.png",
+        "https://arxiv.org/html/2604.12383v1/x2.png",
+        "https://arxiv.org/html/2604.12383v1/x4.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.12383v1/x1.png",
+        "https://arxiv.org/html/2604.12383v1/x2.png",
+        "https://arxiv.org/html/2604.12383v1/x3.png",
+        "https://arxiv.org/html/2604.12383v1/x4.png",
+        "https://arxiv.org/html/2604.12383v1/x5.png",
+        "https://arxiv.org/html/2604.12383v1/x6.png",
+        "https://arxiv.org/html/2604.12383v1/x7.png",
+        "https://arxiv.org/html/2604.12383v1/x8.png",
+        "https://arxiv.org/html/2604.12383v1/x9.png",
+        "https://arxiv.org/html/2604.12383v1/x10.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.12292v1",
+      "title": "CoSyncDiT: Cognitive Synchronous Diffusion Transformer for Movie Dubbing",
+      "abstract": "Movie dubbing aims to synthesize speech that preserves the vocal identity of a reference audio while synchronizing with the lip movements in a target video. Existing methods fail to achieve precise lip-sync and lack naturalness due to explicit alignment at the duration level. While implicit alignment solutions have emerged, they remain susceptible to interference from the reference audio, triggering timbre and pronunciation degradation in in-the-wild scenarios. In this paper, we propose a novel flow matching-based movie dubbing framework driven by the Cognitive Synchronous Diffusion Transformer (CoSync-DiT), inspired by the cognitive process of professional actors. This architecture progressively guides the noise-to-speech generative trajectory by executing acoustic style adapting, fine-grained visual calibrating, and time-aware context aligning. Furthermore, we design the Joint Semantic and Alignment Regularization (JSAR) mechanism to simultaneously constrain frame-level temporal consistency on the contextual outputs and semantic consistency on the flow hidden states, ensuring robust alignment. Extensive experiments on both standard benchmarks and challenging in-the-wild dubbing benchmarks demonstrate that our method achieves the state-of-the-art performance across multiple metrics.",
+      "authors": [
+        "Gaoxiang Cong",
+        "Liang Li",
+        "Jiaxin Ye",
+        "Zhedong Zhang",
+        "Hongming Shan",
+        "Yuankai Qi",
+        "Qingming Huang"
+      ],
+      "published": "2026-04-14T05:03:57Z",
+      "categories": [
+        "cs.SD",
+        "cs.CV",
+        "cs.MM"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.12292v1/x1.png",
+        "https://arxiv.org/html/2604.12292v1/x2.png",
+        "https://arxiv.org/html/2604.12292v1/x3.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.12292v1/x1.png",
+        "https://arxiv.org/html/2604.12292v1/x2.png",
+        "https://arxiv.org/html/2604.12292v1/x3.png",
+        "https://arxiv.org/html/2604.12292v1/x4.png",
+        "https://arxiv.org/html/2604.12292v1/x5.png",
+        "https://arxiv.org/html/2604.12292v1/x6.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.12145v1",
+      "title": "Why Your Tokenizer Fails in Information Fusion: A Timing-Aware Pre-Quantization Fusion for Video-Enhanced Audio Tokenization",
+      "abstract": "Audio tokenization has emerged as a critical component in end-to-end audio language models, enabling efficient discrete representation learning for both audio understanding and generation tasks. However, existing audio tokenizers face fundamental limitations in understanding tasks due to single-modality constraints, particularly when audio signals contain ambiguous or incomplete information. While incorporating additional modality information can significantly enhance audio understanding, current multimodal fusion approaches invariably degrade reconstruction quality. This degradation is unacceptable for end-to-end audio systems that require high-fidelity audio generation capabilities. In this work, we investigate the root causes of reconstruction quality degradation in video-enhanced audio tokenization and present three key findings. First, the location of fusion within the tokenizer architecture is crucial for preserving reconstruction quality. Second, we show that contrastive learning, though effective in continuous representation fusion, is unsuitable for discrete tokenizers as it fails to enhance downstream task performance. Third, while feature-dimension fusion approaches achieve moderate success, we discover that fusing along the temporal axis -- guided by the concept of distinctive features -- yields significantly better results. Building on these insights, we introduce the Timing-Aware Pre-Quantization Fusion for Video-Enhanced Audio Tokenization, the first approach to successfully integrate visual information into audio tokenizer architectures while preserving reconstruction fidelity. Our approach not only maintains high-fidelity reconstruction but also achieves superior performance on downstream understanding tasks compared with audio-only tokenizers and established multimodal fusion baselines.",
+      "authors": [
+        "Xiangyu Zhang",
+        "Benjamin John Southwell",
+        "Siqi Pan",
+        "Xinlei Niu",
+        "Beena Ahmed",
+        "Julien Epps"
+      ],
+      "published": "2026-04-13T23:49:27Z",
+      "categories": [
+        "eess.AS",
+        "cs.SD"
+      ],
+      "fetchedFrom": "cs.SD",
+      "fetchedAt": "2026-04-19T00:02:45.712Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.12145v1/x1.png",
+        "https://arxiv.org/html/2604.12145v1/x2.png",
+        "https://arxiv.org/html/2604.12145v1/x3.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.12145v1/x1.png",
+        "https://arxiv.org/html/2604.12145v1/x2.png",
+        "https://arxiv.org/html/2604.12145v1/x3.png",
+        "https://arxiv.org/html/2604.12145v1/x4.png",
+        "https://arxiv.org/html/2604.12145v1/x5.png",
+        "https://arxiv.org/html/2604.12145v1/x6.png",
+        "https://arxiv.org/html/2604.12145v1/x7.png",
+        "https://arxiv.org/html/2604.12145v1/Image/advance_system.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.14001v1",
+      "title": "Diffusion Language Models for Speech Recognition",
+      "abstract": "Diffusion language models have recently emerged as a leading alternative to standard language models, due to their ability for bidirectional attention and parallel text generation. In this work, we explore variants for their use in speech recognition. Specifically, we introduce a comprehensive guide to incorporating masked diffusion language models (MDLM) and uniform-state diffusion models (USDMs) for rescoring ASR hypotheses. Additionally, we design a new joint-decoding method that combines CTC and USDM by integrating the framewise probability distributions derived from CTC with the labelwise probability distributions computed by USDM at each decoding step, thereby generating new candidates that combine strong language knowledge from USDM and acoustic information from CTC. Our findings reveal that USDM, as well as MDLM, can significantly improve the accuracy of recognized text. We publish all our code and recipes.",
+      "authors": [
+        "Davyd Naveriani",
+        "Albert Zeyer",
+        "Ralf Schlüter",
+        "Hermann Ney"
+      ],
+      "published": "2026-04-15T15:46:15Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG",
+        "cs.NE"
+      ],
+      "fetchedFrom": "cs.CL",
+      "fetchedAt": "2026-04-19T00:03:29.062Z",
+      "analysis": null,
+      "imageUrls": [],
+      "allImageUrls": [],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.14932v1",
+      "title": "WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models via Adaptive Hybrid Post-Training",
+      "abstract": "End-to-end spoken dialogue models have garnered significant attention because they offer a higher potential ceiling in expressiveness and perceptual ability than cascaded systems. However, the intelligence and expressiveness of current open-source spoken dialogue models often remain below expectations. Motivated by the success of online reinforcement learning(RL) in other domains, one might attempt to directly apply preference optimization to spoken dialogue models, yet this transfer is non-trivial. We analyze these obstacles from the perspectives of reward modeling and rollout sampling, focusing on how sparse preference supervision interacts with dense speech generation under shared-parameter updates. Based on the analysis, we propose a modality-aware adaptive post-training recipe that makes RL practical for spoken dialogue: it constrains preference updates to the semantic channel and improves acoustic behavior via explicit anchoring, while dynamically regulating their mixture from rollout statistics to avoid unreliable preference gradients. We evaluate the method across multiple spoken dialogue benchmarks and representative architectures, and observe consistent improvements in semantic quality and speech expressiveness.",
+      "authors": [
+        "Yifu Chen",
+        "Shengpeng Ji",
+        "Qian Chen",
+        "Tianle Liang",
+        "Yangzhuo Li",
+        "Ziqing Wang",
+        "Wen Wang",
+        "Jingyu Lu",
+        "Haoxiao Wang",
+        "Xueyi Pu",
+        "Fan Zhuo",
+        "Zhou Zhao"
+      ],
+      "published": "2026-04-16T12:20:27Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "fetchedFrom": "cs.AI",
+      "fetchedAt": "2026-04-19T00:03:57.060Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.14932v1/x1.png",
+        "https://arxiv.org/html/2604.14932v1/x2.png",
+        "https://arxiv.org/html/2604.14932v1/x3.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.14932v1/x1.png",
+        "https://arxiv.org/html/2604.14932v1/x2.png",
+        "https://arxiv.org/html/2604.14932v1/x3.png",
+        "https://arxiv.org/html/2604.14932v1/x4.png",
+        "https://arxiv.org/html/2604.14932v1/x5.png",
+        "https://arxiv.org/html/2604.14932v1/x6.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.14920v1",
+      "title": "Dual-Axis Generative Reward Model Toward Semantic and Turn-taking Robustness in Interactive Spoken Dialogue Models",
+      "abstract": "Achieving seamless, human-like interaction remains a key challenge for full-duplex spoken dialogue models (SDMs). Reinforcement learning (RL) has substantially enhanced text- and vision-language models, while well-designed reward signals are crucial for the performance of RL. We consider RL a promising strategy to address the key challenge for SDMs. However, a fundamental barrier persists: prevailing automated metrics for assessing interaction quality rely on superficial proxies, such as behavioral statistics or timing-prediction accuracy, failing to provide reliable reward signals for RL. On the other hand, human evaluations, despite their richness, remain costly, inconsistent, and difficult to scale. We tackle this critical barrier by proposing a Dual-Axis Generative Reward Model, which is trained to understand complex interaction dynamics using a detailed taxonomy and an annotated dataset, produces a single score and, crucially, provides separate evaluations for semantic quality and interaction timing. Such dual outputs furnish precise diagnostic feedback for SDMs and deliver a dependable, instructive reward signal suitable for online reinforcement learning. Our model achieves state-of-the-art performance on interaction-quality assessment across a wide spectrum of datasets, spanning synthetic dialogues and complex real-world interactions.",
+      "authors": [
+        "Yifu Chen",
+        "Shengpeng Ji",
+        "Zhengqing Liu",
+        "Qian Chen",
+        "Wen Wang",
+        "Ziqing Wang",
+        "Yangzhuo Li",
+        "Tianle Liang",
+        "Zhou Zhao"
+      ],
+      "published": "2026-04-16T12:03:50Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "fetchedFrom": "cs.AI",
+      "fetchedAt": "2026-04-19T00:03:57.060Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.14920v1/x1.png",
+        "https://arxiv.org/html/2604.14920v1/x2.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.14920v1/x1.png",
+        "https://arxiv.org/html/2604.14920v1/x2.png",
+        "https://arxiv.org/html/2604.14920v1/x3.png",
+        "https://arxiv.org/html/2604.14920v1/x4.png",
+        "https://arxiv.org/html/2604.14920v1/x5.png"
+      ],
+      "parsed": null,
+      "error": null
+    },
+    {
+      "arxivId": "2604.09057v2",
+      "title": "Tora3: Trajectory-Guided Audio-Video Generation with Physical Coherence",
+      "abstract": "Audio-video (AV) generation has recently made strong progress in perceptual quality and multimodal coherence, yet generating content with plausible motion-sound relations remains challenging. Existing methods often produce object motions that are visually unstable and sounds that are only loosely aligned with salient motion or contact events, largely because they lack an explicit motion-aware structure shared by video and audio generation. We present Tora3, a trajectory-guided AV generation framework that improves physical coherence by using object trajectories as a shared kinematic prior. Rather than treating trajectories as a video-only control signal, Tora3 uses them to jointly guide visual motion and acoustic events. Specifically, we design a trajectory-aligned motion representation for video, a kinematic-audio alignment module driven by trajectory-derived second-order kinematic states, and a hybrid flow matching scheme that preserves trajectory fidelity in trajectory-conditioned regions while maintaining local coherence elsewhere. We further curate PAV, a large-scale AV dataset emphasizing motion-relevant patterns with automatically extracted motion annotations. Extensive experiments show that Tora3 improves motion realism, motion-sound synchronization, and overall AV generation quality over strong open-source baselines.",
+      "authors": [
+        "Junchao Liao",
+        "Zhenghao Zhang",
+        "Xiangyu Meng",
+        "Litao Li",
+        "Ziying Zhang",
+        "Siyu Zhu",
+        "Long Qin",
+        "Weizhi Wang"
+      ],
+      "published": "2026-04-10T07:37:03Z",
+      "categories": [
+        "cs.CV",
+        "cs.MM",
+        "cs.SD"
+      ],
+      "fetchedFrom": "cs.MM",
+      "fetchedAt": "2026-04-19T00:04:18.051Z",
+      "analysis": null,
+      "imageUrls": [
+        "https://arxiv.org/html/2604.09057v2/x1.png",
+        "https://arxiv.org/html/2604.09057v2/x2.png",
+        "https://arxiv.org/html/2604.09057v2/x3.png"
+      ],
+      "allImageUrls": [
+        "https://arxiv.org/html/2604.09057v2/x1.png",
+        "https://arxiv.org/html/2604.09057v2/x2.png",
+        "https://arxiv.org/html/2604.09057v2/x3.png",
+        "https://arxiv.org/html/2604.09057v2/x4.png",
+        "https://arxiv.org/html/2604.09057v2/x5.png"
+      ],
+      "parsed": null,
+      "error": null
+    }
+  ]
+}

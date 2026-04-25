@@ -1,0 +1,77 @@
+baseURL: "https://nanless.github.io/audio-paper-digest-blog/"
+languageCode: "zh-cn"
+title: "语音/音频论文速递"
+theme: "PaperMod"
+
+paginate: 20
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: true
+buildExpired: false
+
+minify:
+  disableXML: true
+
+menu:
+  main:
+    - name: "归档"
+      url: "/archives/"
+      weight: 1
+    - name: "标签"
+      url: "/tags/"
+      weight: 2
+    - name: "分类"
+      url: "/categories/"
+      weight: 3
+
+params:
+  env: production
+  title: "语音/音频论文速递"
+  description: "每日 AI 自动生成的语音/AI 领域论文深度分析"
+  keywords: [语音, 音频, AI, 论文, arxiv, speech, audio]
+  DateFormat: "2006-01-02"
+
+  defaultTheme: "auto"
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowToc: true
+  TocOpen: false
+
+  homeInfoParams:
+    Title: "📄 语音/音频论文速递"
+    Content: "每日自动抓取 arxiv 最新语音/AI 论文，AI 深度分析后发布"
+
+  assets:
+    disableFingerprinting: true
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInPage: false
+
+  label:
+    text: "论文速递"
+
+  footer:
+    Content: "由 AI 自动生成 · Paper Digest"
+
+  archive:
+    dateFormat: "2006-01-02"
+    groupByDate: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
